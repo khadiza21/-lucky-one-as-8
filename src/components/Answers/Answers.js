@@ -51,12 +51,22 @@ const Answers = () => {
             aria-labelledby="panelsStayOpen-headingTwo"
           >
             <div className="accordion-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              aliquam alias tempore numquam mollitia architecto voluptate eaque.
-              Reiciendis, eius voluptatibus minus enim expedita eveniet iste
-              ipsam provident quos nemo earum! Sapiente aspernatur quis hic,
-              reiciendis nemo vel tempora id reprehenderit, iusto optio dolore
-              laborum aut dolorem voluptas eaque alias est!
+              Difference Between Props and State:
+              <ol>
+                <li>Props is Read only but State is read and writeable</li>
+                <li>
+                  Props can not be modified and State can be modified prperties.
+                </li>
+                <li>Props are immutable but State is Mutable</li>
+                <li>
+                  Props is passed in from parent and state created within
+                  component
+                </li>
+                <li>
+                  Props cab be passed to child components but State can only be
+                  passed as props.
+                </li>
+              </ol>
             </div>
           </div>
         </div>

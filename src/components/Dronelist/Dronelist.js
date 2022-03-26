@@ -5,7 +5,10 @@ const Dronelist = (props) => {
 
   return (
     <div>
+       
       <p>{namelist.Name}</p>
+
+
     </div>
   );
 };

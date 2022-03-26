@@ -2,6 +2,8 @@
 //here importing nesscessary files and css files
 import React from "react";
 import "./Drone.css";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Drone = (props) => {
   //destructing
@@ -22,7 +24,7 @@ const Drone = (props) => {
           className="purChase btn "
           onClick={() => props.handleAddToCartbtn(props.product)}
         >
-          <i className="fas fa-shopping-cart"></i> Add to Cart
+          Add to Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
         </button>
       </div>
     </div>
