@@ -7,7 +7,7 @@ import Dronelist from "../Dronelist/Dronelist";
 const Cart = (props) => {
   const { cart } = props;
   //   let total = 0;
-  //   for (const product of cart) {
+  //   for (const product of cart) {        
   //     total = total + product.price;
   //   }
   return (
@@ -18,16 +18,16 @@ const Cart = (props) => {
       <ul>
         Ordered Trees Name:{" "}
         {cart.map((p) => (
-            <Dronelist namelist = {p}
-            key={p.droneCode}></Dronelist>
-          
+          <Dronelist namelist={p} key={p.droneCode}></Dronelist>
         ))}
       </ul>
       <button className="btn btn-warning">Choose 1 For Me</button>
       <br /> <br />
-      <button  onClick={ props.handleChooseAgain} className="btn btn-warning">Choose Again</button>
+      <button onClick={props.handleChooseAgain} className="btn btn-warning">
+        Choose Again
+      </button>
     </div>
   );
 };
-// 
+//
 export default Cart;
