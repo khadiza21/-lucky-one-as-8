@@ -11,28 +11,25 @@ const Drone = (props) => {
   //   const {hadleAddToCart} = props;
   return (
     // cart making and give css style
-    <div className="shadow">
+    <div className="shadow flowers-container px-3 rounded py-3">
+      <div >
+       <img src={image} alt="" className="img-fluid img"  />  
+      </div>
      
 
-        <div>
-          <img src={image} alt="" className="img-fluid" />
-        </div>
-
-        <div>
-          <h3>Drone Code: {droneCode}</h3>
-          <h4 className="">Drone Name: {Name}</h4>
-          <h5>Drone Price: {price}</h5>
-          <button
-            className="btn btn-success "
-            onClick={() => props.handleAddToCartbtn(props.product)}
-          >
-            Add to Cart{" "}
-            <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-          </button>
-        </div>
-
-
-     
+      <div className="py-3">
+        <h4>Drone Name: {Name}</h4>
+        <h5>Drone Price: ${price}</h5>
+        <h5>
+          <small>Drone Code: {droneCode}</small>
+        </h5>
+        <button
+          className="btn btn-success py-2 mt-3"
+          onClick={() => props.handleAddToCartbtn(props.product)}
+        >
+          Add to Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+        </button>
+      </div>
     </div>
   );
 };

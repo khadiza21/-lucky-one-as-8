@@ -1,4 +1,14 @@
 /* this the cart section css file */
+/* this the cart section css file */
+
+.flowers-container {
+text-align: justify;
+height: 500px;
+}
+.img{
+  height: 250px;
+}
+
 .purChase {
   cursor: pointer;
 }
