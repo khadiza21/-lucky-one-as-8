@@ -23,12 +23,30 @@ const Answers = () => {
             aria-labelledby="panelsStayOpen-headingOne"
           >
             <div className="accordion-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              aliquam alias tempore numquam mollitia architecto voluptate eaque.
-              Reiciendis, eius voluptatibus minus enim expedita eveniet iste
-              ipsam provident quos nemo earum! Sapiente aspernatur quis hic,
-              reiciendis nemo vel tempora id reprehenderit, iusto optio dolore
-              laborum aut dolorem voluptas eaque alias est!
+              <ol>
+                <li>
+                  React works with two files This are React and react dom.
+                </li>
+                <li>
+                  React convert all components (JS code) in HTML code by React
+                  file.
+                </li>
+                <li>
+                  And then HTML Code is inject in index.html by React DOM file
+                </li>
+                <li>
+                  React creates a Virtual Dom in memorey Instead of manipulating
+                  the browser's Dom directly.
+                </li>
+                <li>
+                  Where it does all the necessary manipulating before making the
+                  changes in the browser DOM
+                </li>
+                <li>
+                  And then changes only what needs to be changed so That's why
+                  React works called Single Page Application(SPA).{" "}
+                </li>
+              </ol>
             </div>
           </div>
         </div>
@@ -89,12 +107,22 @@ const Answers = () => {
             aria-labelledby="panelsStayOpen-headingThree"
           >
             <div className="accordion-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              aliquam alias tempore numquam mollitia architecto voluptate eaque.
-              Reiciendis, eius voluptatibus minus enim expedita eveniet iste
-              ipsam provident quos nemo earum! Sapiente aspernatur quis hic,
-              reiciendis nemo vel tempora id reprehenderit, iusto optio dolore
-              laborum aut dolorem voluptas eaque alias est!
+              <ol>
+                <li>
+                  In useState have Tow component . They are: 1. array 2. Arrow
+                  Function/method
+                </li>
+                <li>useState is Works like a Hook in React. </li>
+                <li>
+                  UseState allows us to have state variables in functional
+                  components.
+                </li>
+                <li>Here, pass the initial sate to this useState function.</li>
+                <li>
+                  The function return a a variable with the current state value{" "}
+                </li>
+                <li>And then another function to update this value</li>
+              </ol>
             </div>
           </div>
         </div>
