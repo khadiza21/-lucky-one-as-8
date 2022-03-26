@@ -23,32 +23,33 @@ const Main = () => {
     // addToDb(product.id);
   };
   const handleChooseAgain = () => {
-   console.log('ere')
     const newCart = [];
     setCart(newCart);
     // addToDb(product.id);
   };
   //return here
   return (
-    <div className="main-container">
-      <div className="drone-container">
-        {
-          //here is mapping
-          products.map((product) => (
-            <Drone
-              key={product.droneCode}
-              product={product}
-              handleAddToCartbtn={handleAddToCart}
-            
-            ></Drone>
-          ))
-        }
-      </div>
-      <div className="cart-container">
-        <Cart cart={cart}
+    <div className="container">
+      <div className="row ">
+        <div className="col-lg-10">
+          <div className="drone-container">
+             {
+            //here is mapping
+            products.map((product) => (
+              <Drone
+                key={product.droneCode}
+                product={product}
+                handleAddToCartbtn={handleAddToCart}
+              ></Drone>
+            ))
+          }
+          </div>
          
-          handleChooseAgain={handleChooseAgain}
-        ></Cart>
+        </div>
+
+        <div className="col-lg-2">
+          <Cart cart={cart} handleChooseAgain={handleChooseAgain}></Cart>
+        </div>
       </div>
     </div>
   );
