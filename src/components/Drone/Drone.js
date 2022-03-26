@@ -13,7 +13,7 @@ const Drone = (props) => {
     // cart making and give css style
     <div className="shadow flowers-container px-3 rounded py-3">
       <div >
-       <img src={image} alt="" className="img-fluid img"  />  
+       <img src={image} alt="" className="img-fluid img rounded"  />  
       </div>
      
 

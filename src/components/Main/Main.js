@@ -32,7 +32,7 @@ const Main = () => {
     <div className="container">
       <div className="row ">
         <div className="col-lg-10">
-          <div className="drone-container">
+          <div className="drone-container my-5">
              {
             //here is mapping
             products.map((product) => (
@@ -47,7 +47,7 @@ const Main = () => {
          
         </div>
 
-        <div className="col-lg-2">
+        <div className="col-lg-2 shadow ">
           <Cart cart={cart} handleChooseAgain={handleChooseAgain}></Cart>
         </div>
       </div>

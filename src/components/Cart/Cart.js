@@ -22,12 +22,13 @@ const Cart = (props) => {
   };
 
   return (
-    <div>
-      <h3 className="fw-bold">Order Summary</h3>
-      <p className="fs-5">Selected Items: {props.cart.length}</p>
+    <div className="my-5 py-3 px-2">
+      <h5 className="fw-bold">Selected Drones</h5>
+      <p className="fw-bold">Selected Items: {props.cart.length}</p>
       {/* <h6>Total Price: {total}</h6> */}
       <ul>
-        Ordered Drones Name:{" "}
+        <h6>Ordered Drones Name: </h6>
+
         {cart.map((p) => (
           <Dronelist namelist={p} key={p.droneCode}></Dronelist>
         ))}
