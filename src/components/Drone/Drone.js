@@ -18,7 +18,7 @@ const Drone = (props) => {
      
 
       <div className="py-3">
-        <h4>Drone Name: {Name}</h4>
+        <h4> {Name}</h4>
         <h5>Drone Price: ${price}</h5>
         <h5>
           <small>Drone Code: {droneCode}</small>

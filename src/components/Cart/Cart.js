@@ -2,6 +2,7 @@
 //here importing nesscessary files and css files
 import React from "react";
 import Dronelist from "../Dronelist/Dronelist";
+import "./Cart.css"
 
 //making a custom html tag and also a component
 const Cart = (props) => {
@@ -18,21 +19,23 @@ const Cart = (props) => {
     let index = test(0, cart.length - 1);
     const tem = cart[index];
     alert("Buy " + tem.Name, " , ", "price: " + tem.price);
-    return tem;
+    return tem.Name;
   };
 
+
   return (
-    <div className="my-5 py-3 px-2">
+    <div className="my-5 py-3 px-2 cart">
       <h5 className="fw-bold">Selected Drones</h5>
       <p className="fw-bold">Selected Items: {props.cart.length}</p>
       {/* <h6>Total Price: {total}</h6> */}
-      <ul>
-        <h6>Ordered Drones Name: </h6>
-
-        {cart.map((p) => (
-          <Dronelist namelist={p} key={p.droneCode}></Dronelist>
+       <h6>Ordered Drones Name: </h6>
+      <ol>
+       
+ {cart.map((p) => (
+     <li>     <Dronelist namelist={p} key={p.droneCode}></Dronelist></li>
         ))}
-      </ul>
+       
+      </ol>
       <button className="btn btn-warning" onClick={choose1ForMe}>
         Choose 1 For Me
       </button>

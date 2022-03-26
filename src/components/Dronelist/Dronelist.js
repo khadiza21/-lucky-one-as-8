@@ -5,10 +5,7 @@ const Dronelist = (props) => {
 
   return (
     <div className="my-3 ">
-       
       <p className="fw-bold">{namelist.Name}</p>
-
-
     </div>
   );
 };

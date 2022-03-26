@@ -1,74 +1,74 @@
 [
     {
         "droneCode": 1,
-        "Name": "YC - CI 201",
-        "price": 23000,
+        "Name": "DRONE YC -201",
+        "price": 2300,
         "image": "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGRyb25lfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
     },
     {
         "droneCode": 2,
-        "Name": "YC - CG 201",
-        "price": 10000,
+        "Name": "DRONE OC -201",
+        "price": 1000,
         "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRyb25lfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
     },
     {
         "droneCode": 3,
-        "Name": "YC - CP 201",
-        "price": 12000,
+        "Name": "DRONE GC -201",
+        "price": 1200,
         "image": "https://images.unsplash.com/photo-1524143986875-3b098d78b363?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZHJvbmV8ZW58MHx8MHx8&w=1000&q=80"
     },
     {
         "droneCode": 4,
-        "Name": "YC - YI 201",
-        "price": 7000,
+        "Name": "DRONE YNC -201",
+        "price": 700,
         "image": "https://thumbs.dreamstime.com/b/advanced-flying-quadcopter-drone-dji-inspire-s-newest-k-flight-mode-camera-pointed-viewer-52352880.jpg"
     },
     {
         "droneCode": 5,
-        "Name": "YC - WI 201",
-        "price": 40000,
+        "Name": "DRONE WYC -201",
+        "price": 4000,
         "image": "https://thumbs.dreamstime.com/b/high-tech-camera-drone-hexacopter-flight-trees-background-80456994.jpg"
     },
     {
         "droneCode": 6,
-        "Name": "CIM - PI 234",
-        "price": 90000,
+        "Name": "DRONE CIM -234",
+        "price": 9000,
         "image": "https://i.ytimg.com/vi/3XCrUUbMK-U/maxresdefault.jpg"
     },
     {
         "droneCode": 7,
-        "Name": "FKI - CE 24T",
-        "price": 20000,
+        "Name": "DRONE FKI -24T",
+        "price": 2000,
         "image": "https://cdn.pixabay.com/photo/2017/08/05/20/49/camera-2585494_960_720.jpg"
     },
     {
         "droneCode": 8,
-        "Name": "GER - C3 23R",
-        "price": 28000,
+        "Name": "DRONE GER -23R",
+        "price": 2800,
         "image": "https://www.teahub.io/photos/full/61-611472_white-quadcopter-drone-wallpaper-drone-images-download.jpg"
     },
     {
         "droneCode": 9,
-        "Name": "T5H - C6 3R4",
-        "price": 20000,
+        "Name": "DRONE T5H -3R4",
+        "price": 2000,
         "image": "https://www.robot-advance.com/EN/ori-drone-pnj-r-traveller-full-hd-2415.jpg"
     },
     {
         "droneCode": 10,
-        "Name": "R5F - E4 45F ",
-        "price": 13000,
+        "Name": "DRONE R5F -45F ",
+        "price": 1300,
         "image": "https://freepikpsd.com/file/2019/10/drone-camera-png-1-Transparent-Images.png"
     },
     {
         "droneCode": 11,
-        "Name": "5G5 - C34 34G",
-        "price": 2000,
+        "Name": "DRONE 5G5 -34G",
+        "price": 200,
         "image": "https://d1eh9yux7w8iql.cloudfront.net/product_images/254591_5a211bce-d64e-49d9-bd3c-72bd8cd8517f.jpg"
     },
     {
         "droneCode": 12,
-        "Name": "4F4 - F43 34F",
-        "price": 10000,
+        "Name": "DRONE 4F4 -34F",
+        "price": 1000,
         "image": "https://png.pngitem.com/pimgs/s/491-4911063_egg-drone-hd-png-download.png"
     }
 ]
